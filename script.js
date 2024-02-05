@@ -12,7 +12,7 @@ const clock = setInterval(function time() {
   min = min.toString().padStart(2, "0");
   sec = sec.toString().padStart(2, "0");
 
-  
+//replacing the h m s to the html text content  
   hour.textContent = hr;
   minute.textContent = min;
   seconds.textContent = sec;
